@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# .DS_Store
+.DS_Store
+
+# Dev dir
+dev-public/
+
