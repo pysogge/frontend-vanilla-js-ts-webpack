@@ -61,10 +61,10 @@ DEBUG ? console.info(mainTable) : null;
 makeCanvasElements(mainTable, 100, 100);
 function component() {
     var element = document.createElement("div");
-    element.innerHTML = lodash_1.default.join(["Hello", "webpack"], " ");
+    element.innerHTML = lodash_1.default.join(["Hello", "Pysogge"], " ");
     return element;
 }
-// document.body.appendChild(component());
+document.body.appendChild(component());
 /* PAINT ELEMENTS */
 /* Color Selector */
 var aside2 = document.querySelector(".aside-2");

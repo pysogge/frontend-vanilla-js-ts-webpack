@@ -92,12 +92,12 @@ makeCanvasElements(mainTable, 100, 100);
 function component(): HTMLDivElement {
   const element: HTMLDivElement = <HTMLDivElement>document.createElement("div");
 
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+  element.innerHTML = _.join(["Hello", "Pysogge"], " ");
 
   return element;
 }
 
-// document.body.appendChild(component());
+document.body.appendChild(component());
 
 /* PAINT ELEMENTS */
 
