@@ -93,7 +93,11 @@ td {
 }
 
 #app {
+  display: flex;
   justify-content: center;
+  row-gap: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 
@@ -107,6 +111,7 @@ td {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 }
 
 @media all and (min-width: 600px) {

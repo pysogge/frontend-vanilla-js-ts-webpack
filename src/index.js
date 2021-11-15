@@ -64,11 +64,7 @@ function component() {
     element.innerHTML = lodash_1.default.join(["Hello", "webpack"], " ");
     return element;
 }
-document.body.appendChild(component());
-// let colorSelector: HTMLSelectElement = <HTMLSelectElement>(
-//   document.querySelector("#color-selector")
-// );
-// colorSelector.value = "NotEraser";
+// document.body.appendChild(component());
 /* PAINT ELEMENTS */
 /* Color Selector */
 var aside2 = document.querySelector(".aside-2");

@@ -97,11 +97,7 @@ function component(): HTMLDivElement {
   return element;
 }
 
-document.body.appendChild(component());
-// let colorSelector: HTMLSelectElement = <HTMLSelectElement>(
-//   document.querySelector("#color-selector")
-// );
-// colorSelector.value = "NotEraser";
+// document.body.appendChild(component());
 
 /* PAINT ELEMENTS */
 
